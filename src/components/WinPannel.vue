@@ -19,7 +19,7 @@ const emit = defineEmits(['restart']);
 <style scoped>
 .winner {
   position: absolute;
-  top: 112%;
+  top: 105%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 285px;
