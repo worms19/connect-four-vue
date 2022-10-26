@@ -12,19 +12,10 @@
   </body>
 </template>
 
-<script>
+<script setup>
 import GameBoard from './components/GameBoard.vue';
 import PlayerCard from './components/PlayerCard.vue';
 import MenuBar from './components/MenuBar.vue';
-
-export default {
-  name: 'App',
-  components: {
-    GameBoard,
-    PlayerCard,
-    MenuBar,
-  },
-};
 </script>
 
 <style>
